@@ -14,7 +14,7 @@ const Home: FC<HomeProps> = ({ name }) => {
   return (
     <div>
       <div>{name}</div>
-      <div>Count:{userName}</div>
+      <div>Counting start:{userName}</div>
       <input type="text" placeholder="Enter" onChange={handleChagne} />
     </div>
   );
